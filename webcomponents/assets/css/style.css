@@ -1,0 +1,210 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+/* fallback */
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(../fonts/materialize-fonts.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+.customIcon {
+    width: 25px;
+    height: 25px;
+    margin: 7px;
+}
+
+html footer.footer-header {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.actions_div {
+    text-align: left;
+}
+
+#container {
+    width: 100%;
+    max-width: 700px;
+    margin: 2em auto;
+}
+
+.box {
+    width: 30%;
+    float: left;
+    margin: 8px;
+    text-align: center;
+    height: 200px;
+    background: white;
+    line-height: 52px;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.box span {
+    text-align: center;
+}
+
+.chatApp .chatBar {
+    background: ghostwhite;
+    padding: 18px;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-family: monospace;
+}
+.name{
+font-size: x-large;
+    font-family: cursive;
+}
+.brand-logo{
+   font-size: x-large;
+    font-family: fantasy; 
+}
+.user {
+    width: 15%;
+    height: 30px;
+    padding: 2px;
+    display: inline-block;
+    color: grey;
+    font-size: large;
+}
+
+.description {
+    display: inline-block;
+    width: 80%;
+    height: 30px;
+    margin-left: 20px;
+    color: gray;
+    font-size: small;
+}
+
+.right {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+
+/* PAGES (specific colors for each page)
+ ============================================================================= */
+
+.poAppPage {
+    height: 82%;
+}
+
+.page-home {
+    background: #00D0BC;
+    color: #00907c;
+}
+
+.page-about,
+.page-booked {
+    background: #E59400;
+    color: #a55400;
+}
+
+.page-contact {
+    background: #0c9;
+    color: #9e0000;
+}
+
+@keyframes slideOutLeft {
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.form {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 1px -1px 2px grey;
+    z-index: 5;
+    background: white;
+}
+
+.form .info {
+    width: 90%;
+    margin: 0;
+    padding-left: 2%;
+}
+
+.form .go {
+    width: 8%;
+}
+
+.uBlogPage {
+    height: 85%;
+}
+
+.uBlogPage {
+    height: 85%;
+}
+
+.chatApp {
+    height: 100%;
+    overflow: auto;
+}
+
+
+/*footer style ends*/
+
+
+/*loading spinner starts*/
+
+.loading-spiner-holder {
+    height: 100%;
+    width: 100%;
+    background: black;
+    z-index: 99999;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.loading-spiner {
+    /* width: 28px;
+     height: 28px;
+     border: 1px solid black; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 5px;
+    /* background: white; */
+    border-radius: 4px;
+}

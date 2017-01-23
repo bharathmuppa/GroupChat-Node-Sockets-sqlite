@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "bat-microblog",
+        "scope": null,
+        "escapedName": "bat-microblog",
+        "name": "bat-microblog",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Localdata\\!bharath\\sampleProjects\\myNode"
+    ]
+  ],
+  "_from": "bat-microblog@latest",
+  "_id": "bat-microblog@1.0.0",
+  "_inCache": true,
+  "_location": "/bat-microblog",
+  "_nodeVersion": "6.8.1",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/bat-microblog-1.0.0.tgz_1485212070424_0.6333513886202127"
+  },
+  "_npmUser": {
+    "name": "bmuppa",
+    "email": "bharathmuppa@gmail.com"
+  },
+  "_npmVersion": "4.1.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "bat-microblog",
+    "scope": null,
+    "escapedName": "bat-microblog",
+    "name": "bat-microblog",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/bat-microblog/-/bat-microblog-1.0.0.tgz",
+  "_shasum": "c7ddaa1222087a2f7ebee8a214e30abf6626f1f8",
+  "_shrinkwrap": null,
+  "_spec": "bat-microblog",
+  "_where": "C:\\Localdata\\!bharath\\sampleProjects\\myNode",
+  "author": {
+    "name": "bharath muppa"
+  },
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "socket.io": "^1.7.2",
+    "sqlite3": "^3.1.8"
+  },
+  "description": "sample microblog for test",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.8",
+    "pump": "^1.0.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "c7ddaa1222087a2f7ebee8a214e30abf6626f1f8",
+    "tarball": "https://registry.npmjs.org/bat-microblog/-/bat-microblog-1.0.0.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "bmuppa",
+      "email": "bharathmuppa@gmail.com"
+    }
+  ],
+  "name": "bat-microblog",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

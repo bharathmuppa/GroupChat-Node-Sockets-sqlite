@@ -1,0 +1,10 @@
+<div class="chatApp">
+    <div class="row" ng-repeat="chat in $root.chats">
+        <div class="col s12 m6 l6 left chatBar" ng-if="chat.user===$root.username"><span class="user ">{{chat.user}}:</span><span class="decription">{{chat.DESCRIPTION}}<span></div>
+            <div class="col s12 m6 l6 right chatBar" ng-if="chat.user!==$root.username"><span class="user right">: {{chat.user}}</span><span class="decription right">{{chat.DESCRIPTION}}</span></div>
+        
+    </div>
+</div>
+<form action="" class="form">
+    <input id="m" autocomplete="off" ng-model="$ctrl.message" class="info input-field" /><a class="waves-effect waves-light btn go" ng-click="$ctrl.submitData()">GO</a>
+</form>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <link href="css/jquery-ui.css" rel="stylesheet" type="text/css"> -->
+
+  
+   
+    <link rel="stylesheet" href="static/assets/css/materialize.min.css" />
+    <link rel="stylesheet" href="static/assets/css/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+    [ng\:cloak],
+    [ng-cloak],
+    [data-ng-cloak],
+    [x-ng-cloak],
+    .ng-cloak,
+    .x-ng-cloak,
+    .ng-hide {
+        display: none !important;
+    }
+    </style>
+</head>
+
+<body ng-app="uBlog"  class="uBlog"  ng-controller="mainController as mc">
+    <header>
+    </header>
+    <div class="uBlogPage" ui-view></div>
+    <!-- loading symbol -->
+    <div class="loading-spiner-holder" loading>
+        <div class="progress">
+            <div class="indeterminate"></div>
+        </div>
+        <div class="loading-spiner"><img src="static/assets/imgs/ajax-loader.gif" width="20%" />
+        </div>
+    </div>
+</body>
+<!-- JS -->
+<!-- load angular, ngRoute, ngAnimate -->
+<script src="static/assets/libs/jquery.js"></script>
+<script src="static/assets/libs/angular.js"></script>
+<script src="static/assets/libs/materialize.min.js"></script>
+<script src="static/assets/libs/fullcalendar.js"></script>
+<script type="text/javascript" src="static/assets/libs/angular-materialize.min.js"></script>
+<script src="static/assets/libs/angular-ui-router.js"></script>
+<script src="static/app/app.module.js"></script>
+<script src="static/app/app.router.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<!--shared directives and service -->
+<script src="static/app/shared/loading.directive.js"></script>
+<script src="static/app/shared/service.factory.js"></script>
+<script src="static/app/shared/commonData.factory.js"></script>
+
+<!-- filters directives -->
+
+<script src="static/app/app.main.js"></script>
+<!-- components laoding start -->
+<script src="static/app/components/login/login.component.js"></script>
+<script src="static/app/components/core/header/header.component.js"></script>
+<script src="static/app/components/home/home.component.js"></script>
+
+
+
+</html>
