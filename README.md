@@ -3,8 +3,8 @@ This is a sample chat application to demonstrate how sockets, sqlite, node work'
 
 prerequiste
 ---------
-*** NodeJS ***
-*** NPM ***
+* NodeJS 
+* NPM 
 
 Instructions
 ===========
